@@ -1,0 +1,12 @@
+<! DOCTYPE html>
+<html>
+    <head>
+    </head>
+    
+    <body>
+        <p>You have received a message from the site's contact form, from <%= "#{ @name }, #{ @email }." %></p>
+        <p><%= @body %></p>
+        <!-- Question: why is @body not wrapped in "" or #{}.  It is just left plain as it is.  
+        I know ruby will return the value as is, however will it puts or print it?  -->
+    </body>
+</html>
